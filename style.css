@@ -1,0 +1,62 @@
+:root {
+  --ultra-light-blue: hsl(188, 34%, 78%);
+  --light-blue: hsl(217, 100%, 68%);
+  --dark-blue: hsl(217, 59%, 44%);
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main-wrapper {
+  width: 60%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+.owl-frame {
+  height: 80%;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.owl-head {
+  width: 20%;
+  height: 40%;
+  border-radius: 35%;
+  margin: 0 auto;
+
+  background-color: var(--light-blue);
+}
+
+.eyes-frame {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.eye {
+    border-radius: 50%;
+    width: 25%;
+    height: 50%;
+    padding: 5%;
+    background-color: black;
+}
+
+.pupil {
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    background-color: #fff;
+
+}
