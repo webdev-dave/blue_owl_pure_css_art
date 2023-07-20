@@ -4,15 +4,13 @@
   --dark-blue: hsl(217, 59%, 44%);
 }
 
-html {
+html, body {
   height: 100%;
   width: 100%;
+  margin: 0;
 }
 
-body {
-  height: 100%;
-  width: 100%;
-}
+
 
 .main-wrapper {
   width: 60%;
@@ -22,17 +20,18 @@ body {
 
 
 .owl-frame {
+  padding-top: 10%;
   height: 80%;
   width: 100%;
-  margin-top: 10%;
+
 }
 
 .owl-head {
+ 
   width: 20%;
-  height: 40%;
+  height: 50%;
   border-radius: 35%;
   margin: 0 auto;
-
   background-color: var(--light-blue);
 }
 
@@ -97,7 +96,7 @@ body {
     border-radius: 35%;
     margin: 0 auto;
   
-    background-color: var(--light-blue);
+    background-color: hsl(217, 100%, 68%);;
   }
   
   .trippy-flower .eyes-frame {
