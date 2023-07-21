@@ -28,8 +28,8 @@ html, body {
 
 .owl-head {
  
-  width: 20%;
-  height: 50%;
+  width: 200px;
+  height: 200px;
   border-radius: 35%;
   margin: 0 auto;
   background-color: var(--light-blue);
