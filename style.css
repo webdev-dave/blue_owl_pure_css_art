@@ -20,25 +20,49 @@ html, body {
 
 
 .owl-frame {
-  padding-top: 10%;
   height: 80%;
   width: 100%;
+  padding-top: 10%;
+}
 
+.head-container {
+  margin: 0 auto;
 }
 
 .owl-head {
- 
   width: 200px;
   height: 200px;
-  border-radius: 35%;
-  margin: 0 auto;
+  border-radius: 0 0 35% 35%;
   background-color: var(--light-blue);
+  margin: 0 auto;
+}
+
+.ears-frame {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+  margin: 0 auto -50px auto;
+}
+
+.ear.left {
+  width: 0;
+  height: 0;
+  rotate: 7.5deg;
+  border-top: 60px solid red;
+  border-right: 60px solid transparent;
+}
+
+.ear.right {
+  width: 0;
+  height: 0;
+  rotate: -7.5deg;
+  border-top: 60px solid red;
+  border-left: 60px solid transparent;
 }
 
 .eyes-frame {
     width: 100%;
     height: 50%;
-    background-color: red;
     display: flex;
     justify-content: space-around;
     align-items: center;
